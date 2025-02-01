@@ -1,0 +1,22 @@
+{
+  "name": "langgraph-article",
+  "module": "index.ts",
+  "type": "module",
+  "packageManager": "bun@1.1.38",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.12",
+    "@langchain/community": "^0.3.25",
+    "@langchain/core": "^0.3.31",
+    "@langchain/langgraph": "^0.2.41",
+    "@langchain/openai": "^0.3.17",
+    "uuid": "^11.0.5",
+    "zod": "^3.24.1"
+  }
+}
