@@ -1,4 +1,6 @@
-# langgraph-article
+# Langgraph JS
+
+![conditional-graph](./src/simple/conditional-graph.png)
 
 To install dependencies:
 
