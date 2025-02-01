@@ -18,11 +18,8 @@ const StateAnnotation = Annotation.Root({
 
 /** Define the nodes */
 export const nodeOne = async (state: typeof StateAnnotation.State) => {
-  return state
-}
-
-export const nodeTwo = async (state: typeof StateAnnotation.State) => {
-  const someChecks = '...'
+  /**
+   * const someChecks = '...'
   if (someChecks) {
     return new Command({
       goto: END,
@@ -34,6 +31,12 @@ export const nodeTwo = async (state: typeof StateAnnotation.State) => {
   return new Command({
     goto: 'two',
   })
+   */
+  return state
+}
+
+export const nodeTwo = async (state: typeof StateAnnotation.State) => {
+  return state;
 }
 
 export const nodeThree = async (state: typeof StateAnnotation.State) => {
