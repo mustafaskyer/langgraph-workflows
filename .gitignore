@@ -174,5 +174,10 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 
-
 src/trip-planner
+src/mcp
+src/hil
+src/tool_calling
+# LangGraph API
+.langgraph_api
+search-flights.json
