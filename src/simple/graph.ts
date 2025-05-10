@@ -1,6 +1,5 @@
 import {
   Annotation,
-  Command,
   END,
   messagesStateReducer,
   START,
@@ -36,7 +35,7 @@ export const nodeOne = async (state: typeof StateAnnotation.State) => {
 }
 
 export const nodeTwo = async (state: typeof StateAnnotation.State) => {
-  return state;
+  return state
 }
 
 export const nodeThree = async (state: typeof StateAnnotation.State) => {
@@ -76,6 +75,6 @@ async function main() {
   Bun.write(process.cwd() + '/src/simple/conditional-graph.png', png)
 }
 
-main()
+// main()
 
 graph.name = 'Simple Graph'
