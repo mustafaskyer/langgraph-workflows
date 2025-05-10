@@ -1,7 +1,8 @@
 {
   "dockerfile_lines": [],
   "graphs": {
-    "simple": "./src/simple/graph.ts:graph"
+    "trip-planner": "./src/trip-planner-workflow/index.ts:workflow",
+    "using-tool-calling": "./src/tool_calling/using-tool-node.ts:workflow"
   },
   "env": ".env",
   "node_version": "20"
